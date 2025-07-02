@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: suit, sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+
+#section-320 { background: #ff02b7; }
+#section-jeongyoungseon { background: #e0e0e0; }
+#section-portfolio { background: #ccc; }
